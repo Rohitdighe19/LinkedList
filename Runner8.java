@@ -1,4 +1,4 @@
-public class Runner7 {
+public class Runner8 {
     public static void main(String[] args) {
         LinkedList<Integer> numberList = new LinkedList<>();
         numberList.add(56);
