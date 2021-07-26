@@ -1,14 +1,14 @@
-public class Runner5 {
+public class Runner6 {
     public static void main(String[] args) {
         LinkedList<Integer> numberList = new LinkedList<>();
         numberList.add(56);
         numberList.add(30);
         numberList.add(70);
-        System.out.println("Array before pop");
+        System.out.println("Array before popLast");
         numberList.show();
         System.out.println();
-        numberList.pop();
-        System.out.println("Array after pop");
+        numberList.popLast();
+        System.out.println("Array after popLast");
         numberList.show();
     }
 }
